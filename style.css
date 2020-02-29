@@ -13,7 +13,59 @@ html { box-sizing: border-box; }
  twitter    #1da1f2
 */
 
+.profil{
+    width: 250px;
+    background-color:#31363b;
+}
+.foto {
+    width: 250px;
+}
+h1{
+    color: #bdc3c7;
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Montserrat"
+}
 
 body {
     background-color: #bdc3c7;
+    max-width: 250px;
+    font-family: 'Montserrat';
+}
+.obsah p {
+    font-family: 'Source Sans Pro';
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #bdc3c7;
+    font-size: 14px;
+}
+
+.odkazy {
+	background-color:#31363b ;
+	padding: 0;
+	margin: 0;
+    text-align: left;
+    border size: 2px;
+    border color: #bdc3c7;
+}
+
+.odkazy a {
+	display: block;
+	color: #bdc3c7;
+	text-decoration: none;  
+    padding: 10px 20px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.odkazy li {
+	display: inline-block;
+    text-transform: uppercase; 
+    border-color: beige;
+    border-top-width: 4px; 
+    }
+}
+.odkazy a:hover {
+	background color: #e74c3c;
 }
