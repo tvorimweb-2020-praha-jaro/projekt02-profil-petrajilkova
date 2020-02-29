@@ -39,26 +39,55 @@ body {
     padding-right: 20px;
     color: #bdc3c7;
     font-size: 14px;
+    line-height: 1.4;
+    font-weight: bold;
 }
 
-.odkazy {
-	background-color:#31363b ;
-	padding: 0;
-	margin: 0;
-    text-align: left;
-    border size: 2px;
-    border color: #bdc3c7;
+.logo{
+
+        background-color: #b92e81;
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        left: 190px;
+        box-shadow: 2px 2px 4px black;
+    }
+
+    .portfolio .facebook .twitter{
+        background-color:#31363b ;
+        border-color: #696969;
+        display: inline-block;
+        width: 100%;
+        border-top: solid;
+        border-bottom: solid;
+        text-align: center;
+        border-width: thin;
+        text-transform: uppercase;
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 14px;
+        padding: 10px 20px;
+        text-decoration-color: beige;
+        border size: 10px;
+        border color: #3f464d;
+    }
+ODTUD
+.facebook{
+    border-right: solid;
+    border-color: #696969;
+    border-width: thin;
 }
 
-.odkazy a {
-	display: block;
-	color: #bdc3c7;
-	text-decoration: none;  
-    padding: 10px 20px;
-    font-family: 'Montserrat';
+.facebook,.twitter{
+    display: inline-block;
+    width: 50%;
     text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 14px;
 }
-
 .odkazy li {
 	display: inline-block;
     text-transform: uppercase; 
@@ -69,3 +98,31 @@ body {
 .odkazy a:hover {
 	background color: #e74c3c;
 }
+ul{
+    padding: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: #bdc3c7;
+}
+
+.portfolio:hover, .portfolio:focus{
+    background-color: #1da1f2; 
+}
+.facebook:hover, .facebook:focus{
+    background-color: #1da1f2;
+}
+
+.twitter:hover,.twitter:focus{
+    background-color: #1da1f2;
+}
+
+.odkazy a:hover, .odkazy a:focus{
+    color: white;
+}
+
+
